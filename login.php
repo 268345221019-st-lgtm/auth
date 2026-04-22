@@ -125,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <label>รหัสผ่าน</label>
       <input type="password" name="password" placeholder="••••••••" required>
     </div>
-    <button type="submit" class="btn">เข้าสู่ระบบ</button>
+    <button type="submit" class="btn">เข้าสู่ระบบBaimint</button>
   </form>
 
   <div class="divider">หรือ</div>
