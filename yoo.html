@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>เว็บทดลองของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ยินดีต้อนรับสู่เว็บของฉัน</h1>
+</header>
+
+<main>
+    <p>นี่คือเว็บ HTML ทดลอง</p>
+    <button onclick="showMessage()">กดฉันสิ</button>
+</main>
+
+<script>
+    function showMessage() {
+        alert("คุณกดปุ่มแล้ว!");
+    }
+</script>
+
+</body>
+</html>
